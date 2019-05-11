@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Members
 {
-    public partial class Form1 : Form
+    public partial class ChangePW : Form
     {
-        public Form1()
+        public ChangePW()
         {
             InitializeComponent();
         }

@@ -46,14 +46,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ChangePW.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ChangePW.Designer.cs">
+      <DependentUpon>ChangePW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="desingner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="desingner.Designer.cs">
+      <DependentUpon>desingner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPW.Designer.cs">
+      <DependentUpon>ForgetPW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="img.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>img.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="desingner.resx">
+      <DependentUpon>desingner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPW.resx">
+      <DependentUpon>ForgetPW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="img.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>img.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +105,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +120,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainDesing\MainDesing.csproj">
+      <Project>{FD120248-EED9-434D-A597-43C2AAE846DB}</Project>
+      <Name>MainDesing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize_Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

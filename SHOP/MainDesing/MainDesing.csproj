@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="img.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -59,8 +59,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="img.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,10 +90,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\iconfinder_like.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_profile-male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-28-24.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Close_Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Minimize_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-5-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

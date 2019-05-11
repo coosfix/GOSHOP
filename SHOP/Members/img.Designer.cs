@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MainDesing {
+namespace Members {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MainDesing {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MainDesing.img", typeof(img).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Members.img", typeof(img).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,16 +63,6 @@ namespace MainDesing {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap cart_28_24 {
-            get {
-                object obj = ResourceManager.GetObject("cart_28_24", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
         internal static System.Drawing.Bitmap Close_Icon {
             get {
                 object obj = ResourceManager.GetObject("Close_Icon", resourceCulture);
@@ -83,59 +73,9 @@ namespace MainDesing {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap iconfinder_like {
-            get {
-                object obj = ResourceManager.GetObject("iconfinder_like", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap iconfinder_logout {
-            get {
-                object obj = ResourceManager.GetObject("iconfinder_logout", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap iconfinder_profile_male {
-            get {
-                object obj = ResourceManager.GetObject("iconfinder_profile_male", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap iconfinder_User {
-            get {
-                object obj = ResourceManager.GetObject("iconfinder_User", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
         internal static System.Drawing.Bitmap Minimize_Icon {
             get {
                 object obj = ResourceManager.GetObject("Minimize_Icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap user_5_24 {
-            get {
-                object obj = ResourceManager.GetObject("user_5_24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
