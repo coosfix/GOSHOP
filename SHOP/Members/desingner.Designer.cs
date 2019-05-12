@@ -97,7 +97,6 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "desingner";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "desingner";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

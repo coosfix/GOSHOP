@@ -118,6 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="artwork_cat_close_up_1406282__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\artwork-cat-close-up-1406282 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode_boutique_brand_1243362" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\barcode-boutique-brand-1243362.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutique_clothes_indoors_264554" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\boutique-clothes-indoors-264554.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boutique_clothes_indoors_264554__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\boutique-clothes-indoors-264554 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Close_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Close_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

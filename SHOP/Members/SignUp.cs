@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace Members
 {
-    public partial class SignUp : Form
+    public partial class SignUp : desingner
     {
         public SignUp()
         {
             InitializeComponent();
+            this.Gender.SelectedIndex = 0;
+            this.City.SelectedIndex = 0;
+            this.RegionId.SelectedIndex = 0;
         }
     }
 }

@@ -58,22 +58,16 @@
     <Compile Include="desingner.Designer.cs">
       <DependentUpon>desingner.cs</DependentUpon>
     </Compile>
-    <Compile Include="ForgetPW.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ForgetPW.Designer.cs">
-      <DependentUpon>ForgetPW.cs</DependentUpon>
-    </Compile>
     <Compile Include="img.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>img.resx</DependentUpon>
     </Compile>
-    <Compile Include="SignIn.cs">
+    <Compile Include="SignInAndForgotPW.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignIn.Designer.cs">
-      <DependentUpon>SignIn.cs</DependentUpon>
+    <Compile Include="SignInAndForgotPW.Designer.cs">
+      <DependentUpon>SignInAndForgotPW.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,15 +80,12 @@
     <EmbeddedResource Include="desingner.resx">
       <DependentUpon>desingner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ForgetPW.resx">
-      <DependentUpon>ForgetPW.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="img.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>img.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignIn.resx">
-      <DependentUpon>SignIn.cs</DependentUpon>
+    <EmbeddedResource Include="SignInAndForgotPW.resx">
+      <DependentUpon>SignInAndForgotPW.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -126,12 +117,28 @@
       <Project>{FD120248-EED9-434D-A597-43C2AAE846DB}</Project>
       <Name>MainDesing</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyControl\MyControl.csproj">
+      <Project>{C0C37422-A0F4-4C9D-9A3B-7548DAEFF578}</Project>
+      <Name>MyControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Close_Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Minimize_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boutique-clothes-indoors-264554.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boutique-clothes-indoors-264554 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode-boutique-brand-1243362.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\artwork-cat-close-up-1406282 %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -26,10 +26,6 @@ namespace Members
             SetClassLong(this.Handle, GCL_STYLE, GetClassLong(this.Handle, GCL_STYLE) | CS_DropSHADOW);
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Maximized;
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
