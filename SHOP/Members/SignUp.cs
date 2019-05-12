@@ -19,5 +19,13 @@ namespace Members
             this.City.SelectedIndex = 0;
             this.RegionId.SelectedIndex = 0;
         }
+
+        private void SignIN_B_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SignInAndForgotPW newform = new SignInAndForgotPW();
+            newform.ShowDialog();
+            this.Close();
+        }
     }
 }

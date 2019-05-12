@@ -77,6 +77,9 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChangePW.resx">
+      <DependentUpon>ChangePW.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="desingner.resx">
       <DependentUpon>desingner.cs</DependentUpon>
     </EmbeddedResource>

@@ -60,5 +60,13 @@ namespace Members
             };
             tim.Start();
         }
+
+        private void SignUP_B_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SignUp newform = new SignUp();
+            newform.ShowDialog();
+            this.Close();
+        }
     }
 }

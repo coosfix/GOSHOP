@@ -16,7 +16,7 @@ namespace Members
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SignInAndForgotPW());
+            Application.Run(new ChangePW());
         }
     }
 }

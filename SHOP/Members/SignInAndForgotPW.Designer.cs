@@ -71,6 +71,7 @@
             this.SignUP_B.TabIndex = 20;
             this.SignUP_B.Text = "加入我們";
             this.SignUP_B.UseVisualStyleBackColor = false;
+            this.SignUP_B.Click += new System.EventHandler(this.SignUP_B_Click);
             // 
             // label3
             // 
@@ -189,7 +190,7 @@
             this.GoLogIn.UseVisualStyleBackColor = false;
             this.GoLogIn.Click += new System.EventHandler(this.GoLogIn_Click);
             // 
-            // SignIn
+            // SignInAndForgotPW
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -209,8 +210,8 @@
             this.Controls.Add(this.GoLogIn);
             this.Controls.Add(this.GetNewPW);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Location = new System.Drawing.Point(0, 0);
-            this.Name = "SignIn";
+            this.Name = "SignInAndForgotPW";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Controls.SetChildIndex(this.GetNewPW, 0);
             this.Controls.SetChildIndex(this.GoLogIn, 0);
             this.Controls.SetChildIndex(this.label1, 0);

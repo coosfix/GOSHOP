@@ -23,6 +23,7 @@ namespace Members
         public desingner()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             SetClassLong(this.Handle, GCL_STYLE, GetClassLong(this.Handle, GCL_STYLE) | CS_DropSHADOW);
         }
 

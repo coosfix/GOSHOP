@@ -119,6 +119,7 @@
             this.SignIN_B.TabIndex = 28;
             this.SignIN_B.Text = "以建立帳號?";
             this.SignIN_B.UseVisualStyleBackColor = false;
+            this.SignIN_B.Click += new System.EventHandler(this.SignIN_B_Click);
             // 
             // Email
             // 
@@ -222,6 +223,7 @@
             this.Controls.Add(this.Addres);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "SignUp";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp";
             this.Controls.SetChildIndex(this.Addres, 0);
             this.Controls.SetChildIndex(this.SignIN_B, 0);
